@@ -8,7 +8,7 @@ varying vec3 vN;  // surface normal vector of the current fragment
 varying vec3 vL;  // vector from current fragment to the light
 varying vec3 vE;  // vector from current fragment to our eye
 
-const float EYES = 0.90; // eye center in s-coordinate
+const float EYES = 0.91; // eye center in s-coordinate
 const float EYET = 0.65; // eye center in t-coordinate
 const float R = 0.03;    // radius of salmon eye
 const vec3 SALMONCOLOR = vec3(0.98, 0.50, 0.45); // "salmon" (r,g,b) color
